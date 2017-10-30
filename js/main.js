@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Fetch our events
-  var url_base = 'https://fpcc-staging.smartchicagoapps.org'
+  var url_base = 'https://map.fpdcc.com'
   var data_url = url_base + '/alerts/list.json'
   //url = 'http://localhost:8080/alerts/list.json'
   $.getJSON( data_url, function ( data ) {
